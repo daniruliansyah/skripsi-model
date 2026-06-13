@@ -1,0 +1,19 @@
+BEST MODEL — RF | SKENARIO 1
+======================================================================
+
+Best CV f1_weighted: 0.7166
+GridSearch duration: 18.71 seconds
+Total combinations evaluated: 16
+
+Best parameters:
+  max_depth: 10
+  min_samples_leaf: 1
+  min_samples_split: 2
+  n_estimators: 200
+
+Test set metrics:
+  Accuracy        : 0.7330
+  Precision (wt)  : 0.7318
+  Recall (wt)     : 0.7330
+  F1-score (wt)   : 0.7299
+  F1-score (macro): 0.6873

@@ -1,0 +1,19 @@
+RINGKASAN KOMPARASI 4 MODEL
+======================================================================
+
+Model     CV F1_w     Test Acc    Test Prec   Test Rec    Test F1_w   Test F1_m   
+----------------------------------------------------------------------------------
+RF S1     0.7166      0.7330      0.7318      0.7330      0.7299      0.6873      
+SVM S1    0.6539      0.6534      0.6604      0.6534      0.6538      0.6072      
+RF S2     0.7118      0.6364      0.6496      0.6364      0.6399      0.6365      
+SVM S2    0.6591      0.6023      0.6210      0.6023      0.6056      0.6027      
+
+BEST PARAMETERS:
+  RF S1: {'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+  SVM S1: {'svm__C': 10, 'svm__gamma': 0.1, 'svm__kernel': 'rbf'}
+  RF S2: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+  SVM S2: {'svm__C': 1, 'svm__gamma': 0.1, 'svm__kernel': 'rbf'}
+
+=> BEST MODEL OVERALL: RF Skenario 1
+   Test F1 (weighted) = 0.7299
+   Test Accuracy = 0.7330

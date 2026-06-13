@@ -1,0 +1,18 @@
+BEST MODEL — SVM | SKENARIO 1
+======================================================================
+
+Best CV f1_weighted: 0.6539
+GridSearch duration: 2.75 seconds
+Total combinations evaluated: 18
+
+Best parameters:
+  svm__C: 10
+  svm__gamma: 0.1
+  svm__kernel: rbf
+
+Test set metrics:
+  Accuracy        : 0.6534
+  Precision (wt)  : 0.6604
+  Recall (wt)     : 0.6534
+  F1-score (wt)   : 0.6538
+  F1-score (macro): 0.6072

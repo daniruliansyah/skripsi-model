@@ -1,0 +1,12 @@
+CLASSIFICATION REPORT — SVM Skenario 1
+======================================================================
+
+              precision    recall  f1-score   support
+
+      Rendah     0.8000    0.7312    0.7640        93
+      Sedang     0.4211    0.3902    0.4051        41
+      Tinggi     0.5849    0.7381    0.6526        42
+
+    accuracy                         0.6534       176
+   macro avg     0.6020    0.6198    0.6072       176
+weighted avg     0.6604    0.6534    0.6538       176

@@ -1,0 +1,12 @@
+CLASSIFICATION REPORT — RF Skenario 2
+======================================================================
+
+              precision    recall  f1-score   support
+
+      Rendah     0.7843    0.6557    0.7143        61
+      Sedang     0.6000    0.6164    0.6081        73
+      Tinggi     0.5400    0.6429    0.5870        42
+
+    accuracy                         0.6364       176
+   macro avg     0.6414    0.6383    0.6365       176
+weighted avg     0.6496    0.6364    0.6399       176
